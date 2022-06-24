@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    margin: auto;
+    width: 1200px;
+    background-color: rgb(34, 37, 101);
+}
+nav ul li{
+    display: inline-block;
+position: relative;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 20px 45px;
+    text-align: center;
+    transition: 500ms;
+    
+   
+}
+nav ul li p{
+    color: rgb(245, 249, 17);
+    font-size: 25px;
+}
+.minhaz p{
+    position: absolute;
+    top: 80px;
+    color: aliceblue;
+    left: 250px;
+}
+.minhaza{
+    position: absolute;
+    top: 200px;
+    color: rgb(245, 249, 17);
+    left: 150px;
+    font-size: 40px;
+}
+.minhaza span{
+    color: white;
+}
+.minhaza a{
+    font-size: 20px;
+    position:absolute ;
+    left: 100px;
+    background-color:rgb(245, 249, 17) ;
+}
+.box  ul li a{
+    color: rgb(244, 235, 235);
+    display: block;
+    padding: 20px 100pxpx;
+    position: relative;
+
+  
+   
+}
+.box ul{
+    margin: 10px  20px;
+    display: inline-block;
+    
+}
+
+nav ul li a:hover{
+    background-color: brown;
+    border-radius: 0 25px 0 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.minhaza a :hover{
+    border-radius: 0 25px 0 25px;
+    background-color: white;
+}
+nav ul li ul{
+    position: absolute;
+background-color: aliceblue;
+}
+.minhazfc nav ul li a{
+    padding:20px 100px;
+}
+.minhazfc nav ul li {
+    position: relative;
+    transition: 500ms;
+
+}
+.minhazfc nav ul li ul{
+    background-color: rgb(190, 205, 79);
+    left: 40px;
+    bottom: 60px;
+    position: absolute;
+    opacity: 0;
+    border-radius: 0 15px 0 15px;
+    transition: 500ms;
+}
+nav ul li ul li{
+    display: block;
+    opacity: 1;
+}
+
+.minhazfc nav ul  :hover{
+    opacity: 1;
+    
+}
+.minhazfc nav ul li ul li ul{
+    left: 100%;
+    position: absolute;
+}
+    
+  
+
